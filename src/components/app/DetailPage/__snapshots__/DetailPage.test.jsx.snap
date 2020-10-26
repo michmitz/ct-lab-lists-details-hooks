@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailPage component renders DetailPage 1`] = `
+<DocumentFragment>
+  <div
+    id="character-details"
+  >
+    <h2>
+      Michelle
+    </h2>
+    <p>
+      Coolest new X-Files character
+    </p>
+    <img
+      src="url@url.com"
+    />
+  </div>
+</DocumentFragment>
+`;

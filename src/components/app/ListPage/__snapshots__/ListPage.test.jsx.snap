@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListPage component renders ListPage 1`] = `
+<DocumentFragment>
+  <ul
+    data-testid="character-list"
+  >
+    <li>
+      <div
+        id="character-details"
+      >
+        <h2>
+          Michelle
+        </h2>
+        <p>
+          They cut her scenes from X-Files, but she was there
+        </p>
+        <img
+          src="http://placeholder.com/michelle"
+        />
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

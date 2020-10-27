@@ -3,7 +3,7 @@
 exports[`DetailPage component renders DetailPage 1`] = `
 <DocumentFragment>
   <div
-    id="character-details"
+    data-testid="character-details"
   >
     <h2>
       Michelle

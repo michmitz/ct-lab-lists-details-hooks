@@ -4,9 +4,9 @@ import DetailPage from '../DetailPage/DetailPage';
 
 const ListPage = ({ characters }) => {
   const characterlist = characters.map(character => (
-    <li key={`${character.name} + ${character.description}`}>
-        <DetailPage {...character} />
-    </li>
+    <a key={character.name} href={`/${character.name}`}>
+           <DetailPage {...character} />
+    </a>
   ));
 
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ListPage from '../ListPage/ListPage'
-import getCharacters from '../../services/getCharacters-api'
+import { getCharacters } from '../../services/getCharacters-api'
 
 const HomePage = () => {
   const [characters, setCharacters] = useState([])

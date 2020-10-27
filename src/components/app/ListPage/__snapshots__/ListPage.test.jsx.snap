@@ -5,9 +5,11 @@ exports[`ListPage component renders ListPage 1`] = `
   <ul
     data-testid="character-list"
   >
-    <li>
+    <a
+      href="/Michelle"
+    >
       <div
-        id="character-details"
+        data-testid="character-details"
       >
         <h2>
           Michelle
@@ -19,7 +21,7 @@ exports[`ListPage component renders ListPage 1`] = `
           src="http://placeholder.com/michelle"
         />
       </div>
-    </li>
+    </a>
   </ul>
 </DocumentFragment>
 `;

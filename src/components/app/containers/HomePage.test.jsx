@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import HomePage from './HomePage';
-import getCharacters from '../../services/getCharacters-api'
+import { getCharacters } from '../../services/getCharacters-api'
 
 jest.mock('../../services/getCharacters-api.jsx');
 
